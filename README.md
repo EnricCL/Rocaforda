@@ -7,9 +7,13 @@ Com executar el joc (macOS):
 
 1. Descarregar l'executable Rocaforda.dmg de l'enllaç https://drive.google.com/drive/folders/1R6ZDMeDAuMzPoxTyw5BWok6_LqCcP37j?usp=sharing .
 
-2. Avís de seguretat de macOS (Gatekeeper): Com que l'aplicació no està signada amb un certificat oficial d'Apple de pagament, macOS la pot bloquejar la primera vegada. 
+2. macOS pot bloquear l'execució mostrant el missatge "L'aplicació està danyada i no es pot obrir", perquè l'aplicació no inclou cap certificat de desenvolupador d'Apple. Per obrir-la al Mac:
 
-Per obrir-la, fer clic dret sobre l'aplicació, seleccionar Obrir i confirmar l'avís de seguretat.
+2.1: Arrossegar l'aplicació a la carpeta Aplicacions o a l'Escriptori.
+2.2: Obrir la Terminal del Mac.
+2.3: Executar lorde per eliminar l'atribut de quarentena: xattr -cr /ruta/a/aplicacio/Rocaforda.app , o sols escriure xattr -cr (amb un espai després de la última r) i arrossegar l'aplicació directament a la finestra de la Terminal.
+2.4: Fer 2 clics per iniciar el joc.
+
 
 Com executar el joc (Windows11):
 
