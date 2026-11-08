@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://vujlyhp3o8lt"]
+
+[ext_resource type="Texture2D" uid="uid://oj24siwc7f5y" path="res://sprites/torxa_sheet.png" id="1_yfdkh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nk3si"]
+radius = 8.0
+
+[node name="Torxa" type="Area2D" unique_id=351159835 groups=["punts_llum"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=446671607]
+position = Vector2(0, 3)
+texture = ExtResource("1_yfdkh")
+vframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=663500174]
+shape = SubResource("CircleShape2D_nk3si")

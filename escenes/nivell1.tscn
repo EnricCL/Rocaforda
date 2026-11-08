@@ -1,0 +1,132 @@
+[gd_scene format=3 uid="uid://ci3vjnn8tpc7w"]
+
+[ext_resource type="PackedScene" uid="uid://ckdb1ilptbexs" path="res://escenes/player.tscn" id="2_j4r6g"]
+[ext_resource type="PackedScene" uid="uid://dbm0s4r20f58r" path="res://escenes/terra.tscn" id="2_xty14"]
+[ext_resource type="PackedScene" uid="uid://vujlyhp3o8lt" path="res://escenes/torxa.tscn" id="3_xty14"]
+[ext_resource type="PackedScene" uid="uid://cstmqlydlo4nd" path="res://escenes/Enemic.tscn" id="4_xty14"]
+
+[node name="Nivell1" type="StaticBody2D" unique_id=1270943718]
+position = Vector2(45, 203)
+
+[node name="Player" parent="." unique_id=1462648739 instance=ExtResource("2_j4r6g")]
+position = Vector2(10, 102)
+
+[node name="Terra" parent="." unique_id=1118522586 instance=ExtResource("2_xty14")]
+position = Vector2(-9, 127)
+
+[node name="Terra2" parent="." unique_id=1568769406 instance=ExtResource("2_xty14")]
+position = Vector2(7, 127)
+
+[node name="Terra3" parent="." unique_id=269402434 instance=ExtResource("2_xty14")]
+position = Vector2(23, 127)
+
+[node name="Terra4" parent="." unique_id=313089278 instance=ExtResource("2_xty14")]
+position = Vector2(39, 127)
+
+[node name="Terra5" parent="." unique_id=592717856 instance=ExtResource("2_xty14")]
+position = Vector2(55, 127)
+
+[node name="Terra6" parent="." unique_id=1200231643 instance=ExtResource("2_xty14")]
+position = Vector2(71, 127)
+
+[node name="Terra7" parent="." unique_id=1931805384 instance=ExtResource("2_xty14")]
+position = Vector2(87, 127)
+
+[node name="Terra8" parent="." unique_id=987041138 instance=ExtResource("2_xty14")]
+position = Vector2(103, 127)
+
+[node name="Terra9" parent="." unique_id=2075687073 instance=ExtResource("2_xty14")]
+position = Vector2(119, 127)
+
+[node name="Terra10" parent="." unique_id=275284274 instance=ExtResource("2_xty14")]
+position = Vector2(135, 127)
+
+[node name="Terra11" parent="." unique_id=222598128 instance=ExtResource("2_xty14")]
+position = Vector2(151, 127)
+
+[node name="Terra12" parent="." unique_id=71516380 instance=ExtResource("2_xty14")]
+position = Vector2(167, 127)
+
+[node name="Terra13" parent="." unique_id=336677384 instance=ExtResource("2_xty14")]
+position = Vector2(214, 14)
+
+[node name="Terra14" parent="." unique_id=440386331 instance=ExtResource("2_xty14")]
+position = Vector2(230, 14)
+
+[node name="Terra15" parent="." unique_id=1319837446 instance=ExtResource("2_xty14")]
+position = Vector2(246, 14)
+
+[node name="Terra16" parent="." unique_id=1329872669 instance=ExtResource("2_xty14")]
+position = Vector2(262, 14)
+
+[node name="Terra17" parent="." unique_id=1604763646 instance=ExtResource("2_xty14")]
+position = Vector2(278, 14)
+
+[node name="Terra18" parent="." unique_id=1373608431 instance=ExtResource("2_xty14")]
+position = Vector2(294, 14)
+
+[node name="Terra19" parent="." unique_id=928228317 instance=ExtResource("2_xty14")]
+position = Vector2(310, 14)
+
+[node name="Terra20" parent="." unique_id=1500799307 instance=ExtResource("2_xty14")]
+position = Vector2(326, 14)
+
+[node name="Terra21" parent="." unique_id=2050877076 instance=ExtResource("2_xty14")]
+position = Vector2(342, 14)
+
+[node name="Terra22" parent="." unique_id=846676991 instance=ExtResource("2_xty14")]
+position = Vector2(358, 14)
+
+[node name="Terra23" parent="." unique_id=399082065 instance=ExtResource("2_xty14")]
+position = Vector2(374, 14)
+
+[node name="Terra24" parent="." unique_id=581035653 instance=ExtResource("2_xty14")]
+position = Vector2(390, 14)
+
+[node name="Terra25" parent="." unique_id=1402429879 instance=ExtResource("2_xty14")]
+position = Vector2(399, -115)
+
+[node name="Terra26" parent="." unique_id=1701675969 instance=ExtResource("2_xty14")]
+position = Vector2(415, -115)
+
+[node name="Terra27" parent="." unique_id=1875559837 instance=ExtResource("2_xty14")]
+position = Vector2(431, -115)
+
+[node name="Terra28" parent="." unique_id=1665061580 instance=ExtResource("2_xty14")]
+position = Vector2(447, -115)
+
+[node name="Terra29" parent="." unique_id=1204799894 instance=ExtResource("2_xty14")]
+position = Vector2(463, -115)
+
+[node name="Terra30" parent="." unique_id=753363208 instance=ExtResource("2_xty14")]
+position = Vector2(479, -115)
+
+[node name="Terra31" parent="." unique_id=1676833229 instance=ExtResource("2_xty14")]
+position = Vector2(495, -115)
+
+[node name="Terra32" parent="." unique_id=271296494 instance=ExtResource("2_xty14")]
+position = Vector2(511, -115)
+
+[node name="Terra33" parent="." unique_id=1659846959 instance=ExtResource("2_xty14")]
+position = Vector2(527, -115)
+
+[node name="Terra34" parent="." unique_id=97164460 instance=ExtResource("2_xty14")]
+position = Vector2(543, -115)
+
+[node name="Terra35" parent="." unique_id=1305019153 instance=ExtResource("2_xty14")]
+position = Vector2(559, -115)
+
+[node name="Terra36" parent="." unique_id=1782713192 instance=ExtResource("2_xty14")]
+position = Vector2(575, -115)
+
+[node name="Torxa" parent="." unique_id=351159835 instance=ExtResource("3_xty14")]
+position = Vector2(71, 30)
+
+[node name="Torxa2" parent="." unique_id=1316393657 instance=ExtResource("3_xty14")]
+position = Vector2(237, -90)
+
+[node name="Torxa3" parent="." unique_id=757684585 instance=ExtResource("3_xty14")]
+position = Vector2(485, -179)
+
+[node name="Enemic" parent="." unique_id=1033776100 instance=ExtResource("4_xty14")]
+position = Vector2(553, -146)

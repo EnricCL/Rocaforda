@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dbm0s4r20f58r"]
+
+[ext_resource type="Texture2D" uid="uid://dr6agd0it38wi" path="res://sprites/terra.png" id="1_j20uh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nk3si"]
+size = Vector2(16, 16)
+
+[node name="Terra" type="StaticBody2D" unique_id=1270943718]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=276137063]
+texture = ExtResource("1_j20uh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1462557260]
+shape = SubResource("RectangleShape2D_nk3si")
